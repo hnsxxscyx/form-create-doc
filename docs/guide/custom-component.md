@@ -34,7 +34,7 @@ form-create 支持的在表单内部生成任何 vue 组件
 let rule = [
   formCreate.maker.create('i-button').props({
     type:'primary',
-    field:'btn'
+    field:'btn',
     loading:true
   })
 ]
